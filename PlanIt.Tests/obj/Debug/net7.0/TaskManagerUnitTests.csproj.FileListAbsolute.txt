@@ -1,0 +1,5 @@
+/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/TaskManagerUnitTests.csproj.AssemblyReference.cache
+/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/TaskManagerUnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/TaskManagerUnitTests.AssemblyInfoInputs.cache
+/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/TaskManagerUnitTests.AssemblyInfo.cs
+/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/TaskManagerUnitTests.csproj.CoreCompileInputs.cache
