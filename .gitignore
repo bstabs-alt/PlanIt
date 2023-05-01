@@ -90,3 +90,7 @@ _pkginfo.txt
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]
+
+# Add these lines to your .gitignore file
+PlanIt.ConsoleApp/bin/
+PlanIt.ConsoleApp/obj/
