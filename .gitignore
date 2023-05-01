@@ -94,3 +94,4 @@ _pkginfo.txt
 # Add these lines to your .gitignore file
 PlanIt.ConsoleApp/bin/
 PlanIt.ConsoleApp/obj/
+.fake

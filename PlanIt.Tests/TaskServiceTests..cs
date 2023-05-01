@@ -2,13 +2,13 @@ namespace PlanIt.Tests;
 using PlanIt.Models;
 using Xunit;
 
-public class TaskManagerUnitTests
+public class TaskServiceTests
 {
     [Fact]
     public void CreateTask_ShouldCreateNewTask()
     {
         // Arrange
-        var taskManager = new TaskManager();
+        var taskManager = new TaskService();
         string title = "Test task";
         string description = "Test task description";
         DateTime dueDate = DateTime.Today.AddDays(7);

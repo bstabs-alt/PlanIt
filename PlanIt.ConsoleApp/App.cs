@@ -1,11 +1,11 @@
 ﻿using System;
 using PlanIt.Models;
 
-internal class Program
+internal class App
 {
     public static void Main(string[] args)
     {
-        TaskManager taskManager = new TaskManager();
+        TaskService taskService = new TaskService();
 
         string title = GetUserInput("Enter task title:");
         string description = GetUserInput("Enter task description:");
@@ -18,7 +18,7 @@ internal class Program
             dueDate = DateTime.Now;
         }
 
-        PlannerTask newTask = taskManager.CreateTask(title, description, dueDate);
+        TaskItem newTask = taskService.CreateTask(title, description, dueDate);
 
         Console.WriteLine($"Task created: {newTask.Title} (ID: {newTask.Id})");
     }
