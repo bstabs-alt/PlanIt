@@ -1,17 +1,25 @@
-using Xunit;
+namespace PlanIt.Tests;
 using PlanIt.Models;
-using System;
+using Xunit;
 
-namespace PlanIt.Tests
+public class TaskManagerUnitTests
 {
-    public class TaskManagerTests
+    [Fact]
+    public void CreateTask_ShouldCreateNewTask()
     {
-        [Fact]
-        public void TestCreateTask()
-        {
-            // Your test code here
-        }
+        // Arrange
+        var taskManager = new TaskManager();
+        string title = "Test task";
+        string description = "Test task description";
+        DateTime dueDate = DateTime.Today.AddDays(7);
 
-        // Add more test methods here
+        // Act
+        var newTask = taskManager.CreateTask(title, description, dueDate);
+
+        // Assert
+        Assert.NotNull(newTask);
+        Assert.Equal(title, newTask.Title);
+        Assert.Equal(description, newTask.Description);
+        Assert.Equal(dueDate, newTask.DueDate);
     }
 }
