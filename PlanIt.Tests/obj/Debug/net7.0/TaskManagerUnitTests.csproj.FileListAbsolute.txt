@@ -102,3 +102,8 @@
 /Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/TaskManagerUnitTests.pdb
 /Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/TaskManagerUnitTests.genruntimeconfig.cache
 /Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/Debug/net7.0/ref/TaskManagerUnitTests.dll
+C:\Users\rsweetmangou\Documents\Git Repos\PlanIt\PlanIt.Tests\obj\Debug\net7.0\TaskManagerUnitTests.csproj.AssemblyReference.cache
+C:\Users\rsweetmangou\Documents\Git Repos\PlanIt\PlanIt.Tests\obj\Debug\net7.0\TaskManagerUnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rsweetmangou\Documents\Git Repos\PlanIt\PlanIt.Tests\obj\Debug\net7.0\TaskManagerUnitTests.AssemblyInfoInputs.cache
+C:\Users\rsweetmangou\Documents\Git Repos\PlanIt\PlanIt.Tests\obj\Debug\net7.0\TaskManagerUnitTests.AssemblyInfo.cs
+C:\Users\rsweetmangou\Documents\Git Repos\PlanIt\PlanIt.Tests\obj\Debug\net7.0\TaskManagerUnitTests.csproj.CoreCompileInputs.cache

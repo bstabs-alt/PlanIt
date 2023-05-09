@@ -1712,20 +1712,6 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
-      },
-      "PlanIt/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.NET.Test.Sdk": "17.5.0",
-          "xunit": "2.4.2"
-        },
-        "compile": {
-          "bin/placeholder/PlanIt.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PlanIt.dll": {}
-        }
       }
     }
   },
@@ -5520,51 +5506,43 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "PlanIt/1.0.0": {
-      "type": "project",
-      "path": "../PlanIt/PlanIt.csproj",
-      "msbuildProject": "../PlanIt/PlanIt.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.5.0",
-      "PlanIt >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
   },
   "packageFolders": {
-    "/Users/reubensweetman-gough/.nuget/packages/": {}
+    "C:\\Users\\rsweetmangou\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/TaskManagerUnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\rsweetmangou\\Documents\\Git Repos\\PlanIt\\PlanIt.Tests\\TaskManagerUnitTests.csproj",
       "projectName": "TaskManagerUnitTests",
-      "projectPath": "/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/TaskManagerUnitTests.csproj",
-      "packagesPath": "/Users/reubensweetman-gough/.nuget/packages/",
-      "outputPath": "/Users/reubensweetman-gough/Documents/Plan-It/PlanIt.Tests/obj/",
+      "projectPath": "C:\\Users\\rsweetmangou\\Documents\\Git Repos\\PlanIt\\PlanIt.Tests\\TaskManagerUnitTests.csproj",
+      "packagesPath": "C:\\Users\\rsweetmangou\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rsweetmangou\\Documents\\Git Repos\\PlanIt\\PlanIt.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/reubensweetman-gough/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\rsweetmangou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/Users/reubensweetman-gough/Documents/Plan-It/PlanIt/PlanIt.csproj": {
-              "projectPath": "/Users/reubensweetman-gough/Documents/Plan-It/PlanIt/PlanIt.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5614,7 +5592,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
