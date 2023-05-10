@@ -1712,6 +1712,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "PlanIt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlanIt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlanIt.dll": {}
+        }
       }
     }
   },
@@ -5506,11 +5516,17 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "PlanIt/1.0.0": {
+      "type": "project",
+      "path": "../PlanIt/PlanIt.csproj",
+      "msbuildProject": "../PlanIt/PlanIt.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "PlanIt >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5542,7 +5558,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rsweetmangou\\Documents\\Git Repos\\PlanIt\\PlanIt\\PlanIt.csproj": {
+              "projectPath": "C:\\Users\\rsweetmangou\\Documents\\Git Repos\\PlanIt\\PlanIt\\PlanIt.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

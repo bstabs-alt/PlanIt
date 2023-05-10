@@ -18,14 +18,33 @@ internal class App
             dueDate = DateTime.Now;
         }
 
+        Console.WriteLine("Enter task priority:");
+        int priority;
+        if (!int.TryParse(Console.ReadLine(), out priority))
+        {
+            Console.WriteLine("Invalid priority. Using default priority (0).");
+            priority = 0;
+        }
+
         TaskItem newTask = taskService.CreateTask(title, description, dueDate);
 
         Console.WriteLine($"Task created: {newTask.Title} (ID: {newTask.Id})");
     }
 
     private static string GetUserInput(string prompt)
+{
+    string input;
+    do
     {
         Console.WriteLine(prompt);
-        return Console.ReadLine() ?? string.Empty;
-    }
+        input = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(input))
+        {
+            Console.WriteLine("Input cannot be empty. Please try again.");
+        }
+    } while (string.IsNullOrWhiteSpace(input));
+    
+    return input;
 }
+}
+
