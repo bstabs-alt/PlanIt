@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskManagerUnitTests
-build_property.ProjectDir = c:\Users\rsweetmangou\Documents\Git Repos\PlanIt\PlanIt.Tests\
+build_property.ProjectDir = C:\Users\rsweetmangou\Documents\Git Repos\PlanIt\PlanIt.Tests\
